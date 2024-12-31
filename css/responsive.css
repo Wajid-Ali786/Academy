@@ -1,0 +1,47 @@
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+    .course-item {
+        margin-bottom: 20px;
+    }
+}
+/* Mobile View (for screens less than 768px wide) */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .highlight-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .highlight-item, .testimonial-item {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .slider-container {
+        flex-direction: column;
+    }
+
+    .social-links {
+        flex-direction: column;
+    }
+}
